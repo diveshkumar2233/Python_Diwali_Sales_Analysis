@@ -18,4 +18,61 @@ The main objective of this project is to analyze sales data during the Diwali fe
 - 🧹 Pandas → Data cleaning & manipulation
 - 📈 Matplotlib → Data visualization
 - 🎨 Seaborn → Advanced visualizations
-- 
+📁 Dataset Description
+
+The dataset contains detailed information about customer purchases during the Diwali sales period. Each row represents a transaction made by a customer.
+
+🧾 Columns Explanation:
+- User_ID → Unique identifier for each customer
+- Cust_name → Name of the customer
+- Product_ID → Unique identifier for each product
+- Gender → Gender of the customer (Male/Female)
+- Age Group → Age category of the customer (e.g., 18–25, 26–35)
+- Age → Exact age of the customer
+- Marital_Status → Marital status (0 = Unmarried, 1 = Married)
+- State → State from where the order was placed
+- Zone → Region classification (North, South, East, West, Central)
+- Occupation → Customer’s profession (e.g., IT, Healthcare, Govt, etc.)
+- Product_Category → Category of the purchased product
+- Orders → Number of orders placed
+- Amount → Total purchase amount (₹)
+- Status → Order status (e.g., Delivered, Cancelled, Returned)
+- unnamed1 → Extra/irrelevant column (can be dropped during data cleaning)
+
+# 🔧 Project Workflow
+🟢 1. Data Loading
+- Imported dataset using Pandas
+- Checked basic structure using .head(), .info()
+
+# 🟡 2. Data Cleaning
+- Removed unnecessary columns
+- Handled missing values
+- Changed data types where required
+
+🔵 3. Exploratory Data Analysis (EDA)
+
+# Performed analysis to understand trends:
+- Gender-wise spending 💰
+- Age group analysis 👨‍👩‍👧‍👦
+- State-wise orders 📍
+- Occupation insights 💼
+- Product category performance 📦
+
+# 📊 Data Visualization
+Using Matplotlib and Seaborn, we created meaningful visualizations to understand customer behavior and sales trends.
+
+📈 Key Visuals Created:
+# # 1.Gender-wise Sales Analysis
+-  Compared total purchase amount between male and female customers
+- Age Group Distribution
+-  Identified which age group contributes the most to sales
+# # 2.State-wise Orders
+-  Visualized top states with highest number of orders
+- Marital Status vs Spending
+- Compared spending patterns of married vs unmarried customers
+# # 3.Occupation Analysis
+ - Identified high-spending professions
+# # 4.Product Category Analysis
+-  Highlighted best-selling product categories
+# # 5.Zone-wise Sales Distribution
+- Compared performance across different regions
