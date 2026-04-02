@@ -62,17 +62,17 @@ The dataset contains detailed information about customer purchases during the Di
 Using Matplotlib and Seaborn, we created meaningful visualizations to understand customer behavior and sales trends.
 
 📈 Key Visuals Created:
-# # 1.Gender-wise Sales Analysis
+# 1.Gender-wise Sales Analysis
 -  Compared total purchase amount between male and female customers
-- Age Group Distribution
+# 2.Age Group Distribution
 -  Identified which age group contributes the most to sales
-# # 2.State-wise Orders
+ # 3.State-wise Orders
 -  Visualized top states with highest number of orders
-- Marital Status vs Spending
+# 4.Marital Status vs Spending
 - Compared spending patterns of married vs unmarried customers
-# # 3.Occupation Analysis
+# 5.Occupation Analysis
  - Identified high-spending professions
-# # 4.Product Category Analysis
+# 6.Product Category Analysis
 -  Highlighted best-selling product categories
-# # 5.Zone-wise Sales Distribution
+# 7.Zone-wise Sales Distribution
 - Compared performance across different regions
